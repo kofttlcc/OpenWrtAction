@@ -12,7 +12,7 @@
 
 #--------------------⬇⬇⬇⬇环境变量⬇⬇⬇⬇--------------------
 # 路由默认IP地址
-routeIP=10.10.0.253
+routeIP=92.168.1.1
 # 编译环境中当前账户名字
 userName=$USER
 # 默认OpenWrtAction的Config文件夹中的config文件名
@@ -27,7 +27,7 @@ sysenv=1
 # OpenWrtAction Git URL
 owaUrl=https://github.com/smallprogram/OpenWrtAction.git
 # 是否首次编译 0否，1是
-isFirstCompile=0
+isFirstCompile=1
 # 是否Make Clean & Make DirClean
 isCleanCompile=$2
 # 编译openwrt的log日志文件夹名称
